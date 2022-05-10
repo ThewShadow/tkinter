@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta http-equiv="refresh" content="1;URL=http://localhost:8001/cgi-bin/py-cgi.py" />
+</head>
+<style>
+    .field {
+        width: 150px;
+    }
+
+</style>
+<body style="">
+    <form method="post" action=""><br>
+        <table>
+            <tr>
+                <th><b>Key</b></th>
+                <td><input type="text" name="key" value="$KEY$"></td>
+            </tr>
+
+            $FORM$
+
+        </table>
+        <br>
+        <input type="submit" name="action" value="change">
+        <input type="submit" name="action" value="add">
+        <input type="submit" name="action" value="delete">
+    </form>
+
+    <br>
+    <table>
+         <tr>
+            <th class="field"><b>Key</b></th>
+            <th class="field"><b>Name</b></th>
+            <th class="field"><b>Age</b></th>
+        </tr>
+
+        $ALL$
+
+    </table>
+
+</body>
+</html>

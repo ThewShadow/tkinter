@@ -1,0 +1,12 @@
+appdirs==1.4.4
+blessed==1.19.1
+flyingcircus==0.1.4.0
+gunicorn==20.1.0
+packaging==21.3
+pyparsing==3.0.8
+pytk==0.0.2.1
+setuptools-scm==6.4.2
+six==1.16.0
+tk==0.1.0
+tomli==2.0.1
+wcwidth==0.2.5
